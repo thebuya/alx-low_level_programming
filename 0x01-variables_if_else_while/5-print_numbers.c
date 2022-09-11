@@ -9,20 +9,13 @@
 */
 int main(void)
 {
-	char letter;
+	int digit;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (digit = 0; digit <= 9; digit++)
 	{
-		if (letter != 'e' && letter != 'q')
-		{
-			putchar (letter);
-		}
-		else
-		{
-			continue;
-		}
+		printf("%d", digit);
 	}
-	putchar ('\n');
+	printf("\n");
 	return (0);
 }
 
