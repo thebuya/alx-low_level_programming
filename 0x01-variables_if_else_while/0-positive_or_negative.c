@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* more headers goes there
+* main - main function
+*
+* Return: end progress
 */
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -25,6 +25,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-/* Return comment*/
 	return (0);
 }
