@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
-* main - Prints putchar
+* print_alphabet - Prints putchar
 * Return: Always 0.
 */
 void print_alphabet(void)
