@@ -3,11 +3,12 @@
 #include "main.h"
 /**
 * main - print_alphabet in lowercase
-* * print_alphabet - Prints 10 times the alphabet, in lowercase.
+*
+* Description: 'Prints 10 times the alphabet, in lowercase.'
+*
 * Return: end progress
 */
-
-void print_alphabet(void) /* Prints 10 times the alphabet, in lowercase. */
+void print_alphabet(void)
 {
 	char letter;
 
