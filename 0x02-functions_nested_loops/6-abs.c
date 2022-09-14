@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _putabs - function
+* _abs - function
 * @c: arg
 * Return: 0 Always
 */
