@@ -1,16 +1,23 @@
 #include <stdio.h>
 #include <unistd.h>
+#include "main.h"
 /**
-* Description: Program that prints out putchar
+* main - print alphabet in lowercase 
 *
-* return: Success
+* Return: end progress
 */
-int _putchar(char c)
+void print_alphabet(void)
 {
-	return (write(1, &c, 1));
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		_putchar(letter);
+	}
+	_putchar('\n');
+	return;
 }
 int main(void)
 {
-	putchar ('\n');
+	print_alphabet();
 	return (0);
 }
