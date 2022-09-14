@@ -29,3 +29,8 @@ Unless stated wotherwise;
 /*Tips: */
 	- Good rule of Thumb; Program Defensivley; Check the arguments
 	- Header files be having protptyes functions
+1. If calling By reference
+/* Arrays are always sent by Reference.*/
+	if so; send ana dres
+2. If calling By Value
+	if so; creates copies of files
