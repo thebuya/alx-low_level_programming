@@ -2,10 +2,10 @@
 #include <unistd.h>
 #include "main.h"
 #include <stdlib.h>
+
 /**
-* main - main function
-*
-* Return: end progress
+* main - Prints putchar
+* Return: Always 0.
 */
 void print_alphabet(void)
 {
