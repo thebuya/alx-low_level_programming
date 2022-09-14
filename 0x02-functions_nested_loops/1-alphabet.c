@@ -6,6 +6,8 @@
 *
 * Return: end progress
 */
+
+
 void print_alphabet(void)
 {
 	char letter;
@@ -14,10 +16,5 @@ void print_alphabet(void)
 		_putchar(letter);
 	}
 	_putchar('\n');
-	return;
 }
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+
