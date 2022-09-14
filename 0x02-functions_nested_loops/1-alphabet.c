@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "main.h"
+#include <stdlib.h>
 /**
-* main - print_alphabet in lowercase
-*
-* Description: 'Prints 10 times the alphabet, in lowercase.'
+* main - main function
 *
 * Return: end progress
 */
